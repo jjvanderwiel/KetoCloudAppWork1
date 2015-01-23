@@ -12,14 +12,11 @@
     android:padding="20dp"
     tools:context="com.ketocloud.testagain1.Questionnaire">
 
-    <LinearLayout android:id="@+id/login_form" android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"/>
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="0.56"
         android:weightSum="1">
 
@@ -82,6 +79,22 @@
                 android:textColor="#ff000000"
                 android:autoText="false"
                 android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/title_activity_questionnaire"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
         </LinearLayout>
 
     </LinearLayout>

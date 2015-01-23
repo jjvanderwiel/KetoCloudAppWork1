@@ -12,11 +12,6 @@
     android:padding="20dp"
     tools:context="com.ketocloud.testagain1.Approval">
 
-
-    <LinearLayout android:id="@+id/login_form" android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"/>
-
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
