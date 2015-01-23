@@ -1,31 +1,24 @@
 package com.ketocloud.testagain1;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class Calculation extends ActionBarActivity {
+public class Preparation extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculation);
+        setContentView(R.layout.activity_preparation);
     }
 
-    public void openPreparationSteps(View v) {
-        Intent openPreparationStepsMethod;
-        openPreparationStepsMethod = new Intent(Calculation.this, Preparation.class);
-        startActivity(openPreparationStepsMethod);
-    }
 
     @Override
-        public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_calculation, menu);
+        getMenuInflater().inflate(R.menu.menu_preparation, menu);
         return true;
     }
 
