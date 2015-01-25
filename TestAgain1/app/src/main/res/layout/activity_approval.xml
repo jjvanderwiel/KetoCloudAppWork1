@@ -10,7 +10,7 @@
     android:gravity="center|top"
     android:background="#ff9bc1e6"
     android:padding="20dp"
-    tools:context="com.ketocloud.testagain1.Approval">
+    tools:context="com.ketocloud.working1.Approval">
 
     <LinearLayout
         android:orientation="horizontal"

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ketocloud.working1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ketocloud.working1.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Calculation"
+            android:label="@string/title_activity_calculation"
+            android:parentActivityName="com.ketocloud.working1.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Home" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Approval"
+            android:label="@string/title_activity_approval"
+            android:parentActivityName="com.ketocloud.working1.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Home" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Referral"
+            android:label="@string/title_activity_referral"
+            android:parentActivityName="com.ketocloud.working1.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Home" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Questionnaire"
+            android:label="@string/title_activity_questionnaire"
+            android:parentActivityName="com.ketocloud.working1.Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Login" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Pantry"
+            android:label="@string/title_activity_pantry"
+            android:parentActivityName="com.ketocloud.working1.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Home" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Download"
+            android:label="@string/title_activity_download"
+            android:parentActivityName="com.ketocloud.working1.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Home" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Planner"
+            android:label="@string/title_activity_planner"
+            android:parentActivityName="com.ketocloud.working1.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Home" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Display"
+            android:label="@string/title_activity_display"
+            android:parentActivityName="com.ketocloud.working1.Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Home" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Demo"
+            android:label="@string/title_activity_demo"
+            android:parentActivityName="com.ketocloud.working1.Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Login" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Password"
+            android:label="@string/title_activity_password"
+            android:parentActivityName="com.ketocloud.working1.Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Login" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Help"
+            android:label="@string/title_activity_help"
+            android:parentActivityName="com.ketocloud.working1.Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Login" />
+        </activity>
+        <activity
+            android:name="com.ketocloud.working1.Preparation"
+            android:label="@string/title_activity_preparation"
+            android:parentActivityName="com.ketocloud.working1.Calculation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ketocloud.working1.Calculation" />
+        </activity>
+     </application>
+
+</manifest>

@@ -6,7 +6,7 @@
     android:gravity="center|top"
     android:background="#ff9bc1e6"
     android:padding="20dp"
-    tools:context="com.ketocloud.testagain1.Referral">
+    tools:context="com.ketocloud.working1.Referral">
 
     <LinearLayout
         android:orientation="vertical"

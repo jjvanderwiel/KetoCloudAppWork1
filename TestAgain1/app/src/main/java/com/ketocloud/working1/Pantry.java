@@ -1,4 +1,4 @@
-package com.ketocloud.testagain1;
+package com.ketocloud.working1;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -6,19 +6,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class Planner extends ActionBarActivity {
+public class Pantry extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_planner);
+        setContentView(R.layout.activity_pantry);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_planner, menu);
+        getMenuInflater().inflate(R.menu.menu_pantry, menu);
         return true;
     }
 
