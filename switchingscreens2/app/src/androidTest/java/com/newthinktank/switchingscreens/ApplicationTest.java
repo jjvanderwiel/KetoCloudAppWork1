@@ -1,4 +1,4 @@
-package com.newthinktank.switchingscreens2;
+package com.newthinktank.switchingscreens;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
